@@ -1,0 +1,199 @@
+body {
+  font-family: Linux Libertine,Georgia,Times,serif;
+}
+
+main .main-logo {
+  height: 29px;
+  background-image: url('https://pngimg.com/uploads/wikipedia/wikipedia_PNG11.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 60px;
+}
+
+main .slogan {
+  margin-top: 10px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-content {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 200px;
+  height: 400px;
+  margin-top: -30px;
+  text-align: center;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+}
+
+main .main-content div {
+  margin-top: 20px;
+  margin-bottom: -32px;
+}
+
+main .main-content h4 {
+  margin-bottom: -10px;
+}
+
+main .main-content h4 a {
+  color: #336bcf; 
+  text-decoration: none;
+}
+
+main .main-content h4 a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+main .main-content p {
+  color: #54595D;
+  font-size: 13px;
+}
+
+main .main-content .renglon1 {
+  /* margin-top: -40px; */
+  text-align: center;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+
+main .main-content .renglon1 div {
+  margin: 0 70px;
+}
+
+main .main-content .renglon2 {
+  /* margin-top: -40px; */
+  text-align: center;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+
+main .main-content .renglon2 div {
+  margin: 0 130px;
+}
+
+main .main-content .renglon3 {
+  /* margin-top: -40px; */
+  text-align: center;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+
+main .main-content .renglon3 div {
+  margin: 0 140px;
+}
+
+main .main-content .renglon4 div {
+  margin: 0 130px;
+}
+
+main .main-content .renglon4 {
+  /* margin-top: -40px; */
+  text-align: center;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+
+main .main-content .renglon5 {
+  /* margin-top: -40px; */
+  text-align: center;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+
+main .main-content .renglon5 div {
+  margin: 0 70px;
+}
+
+main .main-input {
+  /* border: 1px solid red; */
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input input {
+  /* border: 1px solid red; */
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 2px;
+  border: 1px solid #c5c9ce;
+}
+
+main .main-input input:hover {
+  border: 1px solid #72777d;
+}
+
+main .main-input input:focus {
+  border-color: #36c;
+  box-shadow: inset 0 0 0 1px #36c;
+  outline: 0; 
+}
+
+main .main-input .selector-idioma {
+  display: inline;
+  position: absolute;
+  right: 31.7rem;
+  align-self: center;
+  /* top: 1rem;
+  bottom: 1.2rem;
+  max-width: 9.5rem;
+  height: 2.4rem;
+  border-radius: 2px; */
+}
+
+main .main-input .idioma-seleccionado {
+  display: inline-block;
+  margin: 0;
+  color: #54595d;
+  font-size: 13px;
+  line-height: 45px;
+  text-transform: uppercase;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+  cursor: pointer;
+}
+
+main .main-input select {
+  cursor: pointer;
+  background: transparent;
+  border-radius: 0px;
+  width: 20px;
+  appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+main .main-input select:focus{
+  outline: none;
+}
+
+main .main-input i {
+  background-image: url('https://img.icons8.com/material-rounded/24/000000/expand-arrow.png');
+  background-repeat: no-repeat;
+}
+
+main .main-input button {
+  margin-left: 5px;
+  background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  background-color: #36c;
+  width: 50px;
+  height: 30px;
+  border: none;
+  /* opacity: 45%; */
+}
