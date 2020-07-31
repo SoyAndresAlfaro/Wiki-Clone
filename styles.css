@@ -146,7 +146,7 @@ main .main-input input:focus {
 main .main-input .selector-idioma {
   display: inline;
   position: absolute;
-  right: 31.7rem;
+  right: 32.1rem;
   align-self: center;
   /* top: 1rem;
   bottom: 1.2rem;
@@ -196,4 +196,46 @@ main .main-input button {
   height: 30px;
   border: none;
   /* opacity: 45%; */
+}
+
+main .idioma {
+  margin: 30px 0px;
+}
+
+main .idioma .select-languaje {
+  /* width: 500px; */
+  height: 35px;
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid #c5c9ce;
+}
+
+main .idioma .select-languaje:hover {
+  border: 1px solid #72777d;
+}
+
+main .idioma .select-languaje:focus {
+  border-color: #36c;
+  box-shadow: inset 0 0 0 1px #36c;
+  outline: 0; 
+}
+
+main .idioma .button-idioma {
+  text-align: center;
+}
+
+main .idioma .traducir {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/OOjs_UI_icon_language-ltr-progressive.svg/1024px-OOjs_UI_icon_language-ltr-progressive.svg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px 50px;
+  height: 50px;
+  width: 50px;
+}
+
+main .idioma .texto-boton {
+  color: #36c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
 }
