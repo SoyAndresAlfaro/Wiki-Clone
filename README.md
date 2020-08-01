@@ -9,4 +9,4 @@ Como reto final del Curso Práctico de HTML y CSS de Platzi, realicé un clon de
 
 Resultado final:
 
-![Final result](https://imgur.com/a/iCM5Cmn.png)
+![Final result](https://imgur.com/NGvd1dP.png)
